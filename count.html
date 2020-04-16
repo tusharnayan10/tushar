@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>
+            Count Game
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- <link rel="stylesheet" type="text/css" href="style2.css" /> -->
+        <style>
+            button{
+                width: 4cm;
+                margin-left: 16cm;
+                border-collapse: collapse;
+                border-style: hidden;
+                font-size: 3.2cm;
+                padding: 10px;
+                background-color: #363062;
+                color: white;
+            } 
+            button:hover{
+                background-color: #363062;
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+       <div class="jumbotron">
+           <h1 style="text-align: center;" >Lockdown Day </h1>
+           <h5 style="text-align: center;" >By Tushar </h5>
+ 
+        <button id="num" onclick="count();"> </button>
+            <script type="text/javascript">
+            var counter = 0;
+            $("#num").text(counter);
+            function count() {
+                counter = counter + 1;
+                $("#num").text(counter);
+            }
+        </script>
+        </div>
+    </body>
+</hmtl>

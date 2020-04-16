@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="mynavbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">My Logo</a>
+                </div><!--End navbar Header-->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <a href="#" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#feedback">Feedback</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#features">Feautres</a></li>
+                        <li><a href="#feedback">FAQ</a></li>
+                        <li><a href="#feedback">contactus</a></li>
+                    </ul>
+                </div>
+            </div><!--End Container-->
+
+        </nav><!--End navbar-->
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1>Entrepneur Adda</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, tenetur, facere magni aspernatur maiores facilis recusandae dolorem distinctio hic dicta at sint odit beatae repellendus assumenda voluptatibus libero vel doloribus!</p>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-lg btn-info">Download App</a>
+                    <a href="#" class="btn btn-lg btn-default">Visit Store</a>
+                    <a href="#" class="btn btn-lg btn-info">Spread the Word</a>
+                </div>
+            </div><!--End Container-->
+        </div><!--End Jumbotron-->
+            <!--Feedback-->
+            <div class="container">
+                <section>
+                    <div class="page-header" id="feedback">
+                        <h2>Feedback<small>Check Out Awesome Feedback</small></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum minima expedita voluptatem animi explicabo? Dolor consequatur ea esse. Vitae laborum sapiente dolores hic! Rem iusto rerum sit natus error.</p>
+                            </blockquote>
+                            <footer>--Foolish Person</footer>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum minima expedita voluptatem animi explicabo? Dolor consequatur ea esse. Vitae laborum sapiente dolores hic! Rem iusto rerum sit natus error.</p>
+                                </blockquote>
+                                <footer>--Foolish Person</footer>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <blockquote>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum minima expedita voluptatem animi explicabo? Dolor consequatur ea esse. Vitae laborum sapiente dolores hic! Rem iusto rerum sit natus error.</p>
+                                    </blockquote>
+                                    <footer>--Foolish Person</footer>
+                                </div>
+                    </div><!--End Row-->
+                </section>
+            </div><!--End Container-->
+            <!--call to action-->
+            <section>
+                <div class="well">
+                    <div class="container text-center">
+                        <h3>Subscribe for more free stuff</h3>
+                        <p>Enter your name and email</p>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label>Subscribe</label>
+                                <input type="text" class="form-control" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" placeholder="Your Email"/>
+                                </div>
+
+                        </form>
+                    </div><!--End Container-->
+                </div><!--End Well-->
+            </section>    <!--End call to action-->
+                        <!--Gallery-->
+                        <div class="container"> 
+                        <section>
+                        <div class="page-header" id="gallery">
+                         
+                        <h2>Gallery<small>Check out Awesome Gallery</small></h2>
+                    </div>
+                    <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                            <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                            <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="Images/1.jpg"/>
+                            </div>
+                            <div class="item">
+                                <img src="Images/2.jpg"/>
+                                </div>
+                                <div class="item">
+                                 <img src="Images/3.jpg"/>
+                                </div>
+                                <div class="item">
+                                <img src="Images/4.jpg"/>
+                                </div>
+                        </div><!--End carousel inner-->
+                        
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#screenshot-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#screenshot-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+                    </div><!--end carousel-->
+                </section>
+            </div>
+            <!--Feautres-->
+            <div class="container">
+                <section>
+                    <div class="page-header" id="features">
+                        <h2>Feautres<small>Some of the coolest features of this App</small></h2>
+                    </div><!--End page header-->
+                    <div class="row">
+                        <div class="col-lg-8 col-xs-8">
+                            <h3>This is heading</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora aliquam corrupti reprehenderit non molestiae minima ullam delectus facere consequatur quos et voluptas esse cum eum facilis laborum, iure est?</p>
+                        </div>
+                        <div class="col-lg-4 col-xs-4">
+                    <img src="Images/m1.jpg" class="img-responsive">
+                        </div>
+                    </div><!--End Row-->
+                    <div class="row">
+                            <div class="col-lg-8 col-xs-8">
+                                <h3>This is heading</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora aliquam corrupti reprehenderit non molestiae minima ullam delectus facere consequatur quos et voluptas esse cum eum facilis laborum, iure est?</p>
+                            </div>
+                            <div class="col-lg-4 col-xs-4">
+                        <img src="Images/m2.jpg" class="img-responsive">
+                            </div>
+                        </div><!--End Row-->
+                        <div class="row">
+                                <div class="col-lg-8 col-xs-8">
+                                    <h3>This is heading</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora aliquam corrupti reprehenderit non molestiae minima ullam delectus facere consequatur quos et voluptas esse cum eum facilis laborum, iure est?</p>
+                                </div>
+                                <div class="col-lg-4 col-xs-4">
+                            <img src="Images/m3.jpg" class="img-responsive">
+                                </div>
+                            </div><!--End Row-->
+                </section>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-body text-center">
+                                <span class="glyphicon glyphicon-plus"></span>
+                                <h3>This is Heading</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit in, non adipisci quos eligendi ipsam dolores a ratione saepe unde accusantium qui reprehenderit, excepturi eos maxime debitis? Tempora, sit natus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body text-center">
+                                        <span class="glyphicon glyphicon-plus"></span>
+                                    <h3>This is Heading</h3>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit in, non adipisci quos eligendi ipsam dolores a ratione saepe unde accusantium qui reprehenderit, excepturi eos maxime debitis? Tempora, sit natus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                                <div class="panel panel-default">
+                                    <div class="panel-body text-center">
+                                            <span class="glyphicon glyphicon-plus"></span>
+                                        <h3>This is Heading</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit in, non adipisci quos eligendi ipsam dolores a ratione saepe unde accusantium qui reprehenderit, excepturi eos maxime debitis? Tempora, sit natus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                </div><!--End Row-->
+            </div>
+            <!--Contact us-->
+            <div class="container">
+                <section>
+                    <div class="page-header" id="contactus">
+                        <h2>Contact Us<small>Contact us for more....</small></h2>
+                    </div><!--End Page Header-->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Send us a message, or contact us from the below address</p>
+                            <address>
+                                <strong>Entrepneur Adda</strong><br>
+                                E-School Rajendra Nagar Bareilly<br>
+                                1234567890<br>
+                            </address>
+                        </div>
+                        <div class="col-lg-8">
+                                <form class="form-horizontal" action="">
+                                        <div class="form-group">
+                                            <label for="user name" class="col-lg-2 control-label">User Name</label>
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" id="user name" placeholder="Enter Your Name">
+                                            </div>
+                                        </div><!--end Form group-->
+                                                    <div class="form-group">
+                                            <label for="user email" class="col-lg-2 control-label">User Email</label>
+                                            <div class="col-lg-10">
+                                                <input type="email" class="form-control" id="user email" placeholder="Enter Your Email Address">
+                                            </div>
+                                        </div><!--end Form group-->
+                                                    <div class="form-group">
+                                            <label for="user website" class="col-lg-2 control-label">Website</label>
+                                            <div class="col-lg-10">
+                                                <input type="text" class="form-control" id="user name" placeholder="If you have Any">
+                                            </div>
+                                        </div><!--end Form group-->
+                                                    <div class="form-group">
+                                            <label for="user message" class="col-lg-2 control-label">Message</label>
+                                            <div class="col-lg-10">
+                                            <textarea class="form-control" id="user message" name="user message" cols="20" rows="10" placeholder="Enter Your Messsage" ></textarea>
+                                            </div>
+                                        </div><!--end Form group-->
+                                        <div class="form-group">
+                                            <div class="col-lg-10 col-lg-offset-2">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer>
+                <hr>
+                <div class="container text-center" style="background-color: darkgray">
+                    <h3>Subscribe for more free stuff</h3>
+                    <p>Enter your Name and Email</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label>Subscribe</label>
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                    </form>
+                    <hr>
+                    <ul class="list-inline">
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                    <p>&copy; Copyright @ 2019</p>
+                </div>
+            </footer>
+    </body>
+</html>

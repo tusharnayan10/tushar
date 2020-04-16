@@ -1,0 +1,57 @@
+body{ 
+    background-color:#202040; 
+    margin-block-start: -.5cm;
+    background-origin: padding-box;
+    color: white;
+}
+.heading{
+    max-width: 100%;
+    margin-top: -.8cm;
+    background-color: #363636;
+    color: peru;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row{
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.jumbotron{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 18px;
+    color: black;
+}
+a{
+    background-color: white;
+    padding: 18px;
+
+}
+a:hover{
+    background-color: #202040;
+    color: tomato;
+}
+.box:hover
+{   padding: .05em;
+    background-color: #202040;
+    color:white ;
+}
+.form{
+        background-color: #252525;
+        color: white;
+}
+label{
+    padding: 2px;
+}
+input{
+    border-style: hidden;
+    height: .88cm;
+    width: 300px;
+    padding: 1px;
+    color: gray;
+    opacity: 80%;
+}
+footer{
+     padding: 3px;
+}
